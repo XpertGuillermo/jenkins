@@ -13,7 +13,6 @@ pipeline {
             steps {
                 script {            
                     bat "docker push caosbinario/homer_page:1.0.0-${BUILD_ID}"
-                    
                 }
             }
         }
